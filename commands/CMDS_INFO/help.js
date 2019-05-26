@@ -57,8 +57,8 @@ module.exports.run = async (bot, message, args, server_name) => {
     if (category === 'e')   category = '**экономика**';
     if (category === 'f')   category = '**развлечения**';
     if (category === 'i')   category = '**информация**';
-    if (category === 'm')   category = '**модерация** \'BETA\'';
-    if (category === 's')   category = '**музыка**';
+    if (category === 'm')   category = '**модерация**'';
+    if (category === 's')   category = '**музыка** \'BETA\';
     if (category === 'o')   category = '**разное**';
     if (category === 't')   category = '**инструменты**';
     
