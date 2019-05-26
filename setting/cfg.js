@@ -1,8 +1,8 @@
 function cfg(){
 	return {
 		"token" : {
-			'DS_TOKEN' : 'NTc0NjU3NzExNzQ1MDA3NjU2.XM8m4Q.kHua9AnNjNKCeyqUgjVkbT-OdjU',
-			'YT_API_V3' : 'AIzaSyC2ZGWhechfOv2ssGjxxGVD1D5LbZ_EVTQ',
+			'DS_TOKEN' : process.env.BOT_TOKEN,
+			'YT_API_V3' : process.env.YT_API_V3,
 			'KEY_FT' : ''
 		},
 		"prefix" : ['s!', 's1', 'S!', 'S1', '<@574657711745007656>'],
@@ -20,7 +20,7 @@ function cfg(){
 			"stream" : '<:stream:577576527135506445> '
 		},
     	'ConnectDB' : { // Соединение с сервером!
-    		URL : 'mongodb://KHRI_AJIE-DB:YHYU78uifd89JIUN87fduij@subox.pp.ua:2025/SeNKO_BOT_DB',
+    		URL : process.env.MONGODB,
 	        ObjectDB : function(){
 	            return this.URL
 	        }
